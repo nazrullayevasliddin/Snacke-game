@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacke Game</title>
+    <style>
+        #p1{
+            color: #000;
+            text-align: center;
+            font-size: 30px;
+            font-family: monospace;
+        }
+        .game{
+            display: flex;
+            justify-content: center;
+        }
+        #canvas{
+            border: 1px solid black;
+            background-color: rgb(13, 213, 66);
+        }
+    </style>
+</head>
+<body>
+    <p id="p1">Score: <span id="score"></span></p>
+    <div class="game">
+        <canvas id="canvas" width="700px" height="580px">
+
+        </canvas>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
